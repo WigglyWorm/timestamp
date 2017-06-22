@@ -8,6 +8,7 @@
     "async": "~0.2.8",
     "body-parser": "^1.17.2",
     "cors": "^2.8.3",
+    "ejs": "^2.5.6",
     "express": "^3.2.6",
     "mongoose": "^4.10.7",
     "nodemon": "^1.11.0",

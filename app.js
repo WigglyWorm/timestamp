@@ -3,8 +3,14 @@ var bodyParser = require('body-parser');
 var cors = require ('cors');
 
 var app = module.exports = express();
+app.set("view engine", "ejs");
 app.use(bodyParser.json());
 app.use(cors());
+
+//root route
+app.get("/", function(req, res){
+    res.render("landing")
+});
 
 app.get('/:date', function(req, res){
     
